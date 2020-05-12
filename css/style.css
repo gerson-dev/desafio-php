@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../image/fliper.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+   
+   
+    
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: blanchedalmond;
+    font-size: 50px;
+}
+p{
+    font-size: 17px;
+    color:rgb(255, 254, 254);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+
+}
+
+input{
+    width:200px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+textarea{
+    width: 350px;
+    height: 60px;
+    resize: none;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding-left: 10px;
+}
+
+.numeros{
+    display: flex;
+}
+.quantidade, .preco{
+    margin-right: 40px;
+    width: 90px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.foto{
+    border: none;
+    padding: 0;
+    margin-bottom: 30px;
+    width: 300px;
+}
+.btn{
+    display: flex;
+    
+}
+
+button{
+    width: 100px;
+    padding: 10px;
+    border: none;
+    background-color: red;
+    color: blanchedalmond;
+}
